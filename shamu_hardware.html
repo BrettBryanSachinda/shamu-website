@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ====== SEO META TAGS ====== -->
+  <title>Shamu Hardware & Building Supplies | Chitungwiza Zimbabwe</title>
+  <meta name="description" content="Shamu Hardware & Building Supplies – Your one-stop shop for plumbing, electrical, tiling, paints and building materials in Chitungwiza. Located at Makoni Shopping Centre. Open daily 07:00–18:00." />
+  <meta name="keywords" content="hardware store Chitungwiza, building supplies Zimbabwe, plumbing materials Harare, electrical materials Chitungwiza, tiling equipment Zimbabwe, paints accessories, cement nails bolts, Shamu Hardware, Shazindi Investments, Makoni Shopping Centre" />
+  <meta name="author" content="Shazindi Investments t/a Shamu Hardware" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://shamuhardware.co.zw/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="Shamu Hardware & Building Supplies – Chitungwiza" />
+  <meta property="og:description" content="Everything you need to Build, Repair & Finish. Plumbing, Electrical, Paints, Tiling & Building Materials. Open daily 07:00–18:00 at Makoni Shopping Centre, Chitungwiza." />
+  <meta property="og:url" content="https://shamuhardware.co.zw/" />
+  <meta property="og:locale" content="en_ZW" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shamu Hardware & Building Supplies – Chitungwiza" />
+  <meta name="twitter:description" content="Your one-stop hardware store in Chitungwiza. Quality products, great prices, trusted service." />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HardwareStore",
+    "name": "Shamu Hardware & Building Supplies",
+    "legalName": "Shazindi Investments t/a Shamu Hardware",
+    "description": "Everything you need to Build, Repair & Finish. Plumbing, Electrical, Paints, Tiling & Building Materials.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Makoni Shopping Centre, Opposite Makoni Market",
+      "addressLocality": "Chitungwiza",
+      "addressCountry": "ZW"
+    },
+    "telephone": ["+263782653631", "+263771805774", "+263781309690"],
+    "email": "Shazindi2025@gmail.com",
+    "openingHours": "Mo-Su 07:00-18:00",
+    "currenciesAccepted": "USD, ZWL",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #0a2d6e;
+      --blue-mid: #1346a8;
+      --blue-light: #2563eb;
+      --red: #c8102e;
+      --red-bright: #e8192c;
+      --gold: #f5b700;
+      --white: #ffffff;
+      --off-white: #f4f6fb;
+      --dark: #0d1117;
+      --dark2: #161c27;
+      --text-muted: #6b7a99;
+      --border: rgba(255,255,255,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--dark);
+      color: var(--white);
+      overflow-x: hidden;
+    }
+
+    /* ===== NAV ===== */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%;
+      height: 70px;
+      background: rgba(10, 16, 30, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 2px solid var(--red);
+    }
+
+    .nav-logo {
+      display: flex; align-items: center; gap: 12px;
+    }
+
+    .nav-logo-img {
+      height: 50px;
+      width: auto;
+      background: white;
+      border-radius: 6px;
+      padding: 3px;
+    }
+
+    .nav-brand {
+      display: flex; flex-direction: column; line-height: 1;
+    }
+
+    .nav-brand span:first-child {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.4rem;
+      color: var(--gold);
+      letter-spacing: 2px;
+    }
+
+    .nav-brand span:last-child {
+      font-size: 0.65rem;
+      color: #aab4cc;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex; gap: 28px; list-style: none;
+    }
+
+    .nav-links a {
+      color: #cdd5e8;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--red);
+      color: white !important;
+      padding: 8px 18px;
+      border-radius: 4px;
+      transition: background .2s !important;
+    }
+
+    .nav-cta:hover { background: var(--red-bright) !important; color: white !important; }
+
+    .hamburger {
+      display: none;
+      flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 5px;
+    }
+
+    .hamburger span {
+      display: block; width: 24px; height: 2px;
+      background: white; border-radius: 2px;
+      transition: .3s;
+    }
+
+    /* ===== HERO ===== */
+    #hero {
+      min-height: 100vh;
+      padding-top: 70px;
+      background: linear-gradient(135deg, #05102a 0%, #0a1f5c 40%, #0d1a42 70%, #1a0a0a 100%);
+      position: relative;
+      display: flex; align-items: center;
+      overflow: hidden;
+    }
+
+    .hero-bg-pattern {
+      position: absolute; inset: 0;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(255,255,255,0.02) 60px, rgba(255,255,255,0.02) 61px),
+        repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,255,255,0.02) 60px, rgba(255,255,255,0.02) 61px);
+    }
+
+    .hero-accent {
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      filter: blur(120px);
+      pointer-events: none;
+    }
+
+    .hero-accent-1 {
+      background: rgba(200, 16, 46, 0.18);
+      top: -100px; right: -100px;
+    }
+
+    .hero-accent-2 {
+      background: rgba(19, 70, 168, 0.25);
+      bottom: -150px; left: -100px;
+    }
+
+    .hero-inner {
+      position: relative; z-index: 2;
+      max-width: 1200px; margin: 0 auto;
+      padding: 80px 5%;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(245,183,0,0.12);
+      border: 1px solid rgba(245,183,0,0.3);
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      line-height: 0.92;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+
+    .hero-title .line-white { color: var(--white); }
+    .hero-title .line-gold { color: var(--gold); }
+    .hero-title .line-red { color: var(--red-bright); }
+
+    .hero-sub {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #8ca0c8;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .hero-tagline {
+      font-size: 1.1rem;
+      color: #cdd5e8;
+      font-style: italic;
+      margin-bottom: 32px;
+      padding-left: 14px;
+      border-left: 3px solid var(--gold);
+    }
+
+    .hero-cats {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin-bottom: 36px;
+    }
+
+    .hero-cat {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 6px 14px;
+      border-radius: 3px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #c8d4ee;
+    }
+
+    .hero-btns {
+      display: flex; flex-wrap: wrap; gap: 12px;
+    }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--red);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: background .2s, transform .2s;
+    }
+
+    .btn-primary:hover { background: #e8192c; transform: translateY(-2px); }
+
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent;
+      color: white;
+      padding: 13px 28px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,0.25);
+      transition: border-color .2s, transform .2s;
+    }
+
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+
+    .btn-wa {
+      background: #25d366;
+    }
+
+    .btn-wa:hover { background: #20bd5a !important; }
+
+    /* Hero right visual */
+    .hero-visual {
+      display: flex; flex-direction: column; gap: 16px;
+    }
+
+    .hero-store-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+    }
+
+    .hero-store-icon {
+      font-size: 4rem; margin-bottom: 12px;
+    }
+
+    .hero-store-card h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      color: var(--gold);
+    }
+
+    .hero-store-card p {
+      color: #8ca0c8;
+      font-size: 0.85rem;
+      margin-top: 4px;
+    }
+
+    .hero-badges {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .hero-badge {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 14px;
+      text-align: center;
+    }
+
+    .hero-badge .badge-icon { font-size: 1.6rem; margin-bottom: 6px; }
+    .hero-badge .badge-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #8ca0c8; }
+
+    /* ===== TRUST STRIP ===== */
+    #trust {
+      background: var(--red);
+      padding: 28px 5%;
+    }
+
+    .trust-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; flex-wrap: wrap;
+      align-items: center; justify-content: center;
+      gap: 20px 40px;
+    }
+
+    .trust-tagline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      color: white;
+      white-space: nowrap;
+    }
+
+    .trust-divider {
+      width: 2px; height: 40px;
+      background: rgba(255,255,255,0.3);
+    }
+
+    .trust-items {
+      display: flex; flex-wrap: wrap; gap: 20px 32px;
+    }
+
+    .trust-item {
+      display: flex; align-items: center; gap: 8px;
+      color: white; font-weight: 700;
+      font-size: 0.85rem; text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .trust-item span:first-child { font-size: 1.1rem; }
+
+    /* ===== SECTION COMMON ===== */
+    section { padding: 90px 5%; }
+
+    .section-label {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--red-bright);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+    }
+
+    .section-label::before {
+      content: '';
+      display: block; width: 24px; height: 2px;
+      background: var(--red-bright);
+    }
+
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      letter-spacing: 2px;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    .section-desc {
+      color: #8ca0c8;
+      font-size: 1rem;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    .section-header { margin-bottom: 56px; }
+
+    /* ===== PRODUCTS ===== */
+    #products {
+      background: var(--dark2);
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1200px; margin: 0 auto;
+    }
+
+    .product-card {
+      background: var(--dark);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 10px;
+      padding: 32px 20px;
+      text-align: center;
+      transition: transform .25s, border-color .25s, box-shadow .25s;
+      cursor: default;
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--gold);
+      box-shadow: 0 12px 36px rgba(245,183,0,0.1);
+    }
+
+    .product-icon {
+      font-size: 2.8rem;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .product-card h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .product-card p {
+      font-size: 0.8rem;
+      color: #7080a0;
+      line-height: 1.6;
+    }
+
+    .product-card .product-badge {
+      display: inline-block;
+      margin-top: 14px;
+      background: rgba(245,183,0,0.1);
+      border: 1px solid rgba(245,183,0,0.25);
+      color: var(--gold);
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+
+    /* ===== ABOUT ===== */
+    #about {
+      background: var(--dark);
+      max-width: 100%;
+    }
+
+    .about-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+    }
+
+    .about-text {
+      color: #b0bdd8;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .about-highlights {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .about-highlight {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .about-highlight .hl-icon { font-size: 1.6rem; margin-bottom: 8px; }
+    .about-highlight h4 {
+      font-weight: 700; font-size: 0.9rem;
+      text-transform: uppercase; letter-spacing: 1px;
+      color: var(--gold); margin-bottom: 4px;
+    }
+    .about-highlight p { font-size: 0.8rem; color: #7080a0; }
+
+    .about-right {
+      background: rgba(19, 70, 168, 0.08);
+      border: 1px solid rgba(19, 70, 168, 0.2);
+      border-radius: 16px;
+      padding: 40px;
+    }
+
+    .about-motto {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.4rem;
+      color: var(--gold);
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+
+    .about-motto-sub {
+      font-size: 1rem;
+      color: #8ca0c8;
+      font-style: italic;
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .about-stat {
+      display: flex; align-items: center; gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .about-stat .stat-icon {
+      font-size: 1.8rem;
+      width: 48px; height: 48px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px; flex-shrink: 0;
+    }
+
+    .about-stat h4 {
+      font-weight: 700; color: white;
+      font-size: 0.95rem;
+    }
+
+    .about-stat p { font-size: 0.82rem; color: #7080a0; }
+
+    /* ===== HOURS LOCATION ===== */
+    #hours-location {
+      background: var(--dark2);
+    }
+
+    .hl-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .info-card {
+      background: var(--dark);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 12px;
+      padding: 36px;
+    }
+
+    .info-card h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: flex; align-items: center; gap: 10px;
+    }
+
+    .hours-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.92rem;
+    }
+
+    .hours-row:last-of-type { border-bottom: none; }
+    .hours-row .day { color: #8ca0c8; font-weight: 600; }
+
+    .hours-row .time {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700; color: white;
+      font-size: 1rem;
+    }
+
+    .open-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(37,211,102,0.1);
+      border: 1px solid rgba(37,211,102,0.3);
+      color: #25d366;
+      font-size: 0.75rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 5px 12px; border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .open-badge::before {
+      content: ''; width: 7px; height: 7px;
+      border-radius: 50%; background: #25d366;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .location-detail {
+      display: flex; gap: 14px; margin-bottom: 18px;
+    }
+
+    .location-detail .loc-icon {
+      font-size: 1.4rem; flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .location-detail h4 { font-weight: 700; font-size: 0.92rem; color: white; margin-bottom: 4px; }
+    .location-detail p { font-size: 0.85rem; color: #7080a0; line-height: 1.5; }
+
+    .map-embed {
+      width: 100%; height: 220px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-top: 20px;
+    }
+
+    .map-embed iframe { width: 100%; height: 100%; border: 0; }
+
+    .map-placeholder {
+      width: 100%; height: 220px;
+      border-radius: 8px;
+      background: rgba(19, 70, 168, 0.1);
+      border: 1px solid rgba(19, 70, 168, 0.25);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 12px; margin-top: 20px;
+      color: #8ca0c8; text-align: center; padding: 20px;
+    }
+
+    .map-placeholder .map-icon { font-size: 2.5rem; }
+    .map-placeholder p { font-size: 0.85rem; line-height: 1.6; }
+
+    .map-directions-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 8px;
+      background: var(--blue-light);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: background .2s;
+    }
+
+    .map-directions-btn:hover { background: var(--blue-mid); }
+
+    /* ===== CONTACT ===== */
+    #contact {
+      background: var(--dark);
+    }
+
+    .contact-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: start;
+    }
+
+    .contact-items { display: flex; flex-direction: column; gap: 16px; margin-top: 32px; }
+
+    .contact-item {
+      display: flex; align-items: center; gap: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 8px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .2s, background .2s;
+    }
+
+    .contact-item:hover { border-color: var(--gold); background: rgba(245,183,0,0.04); }
+
+    .contact-item .ci-icon {
+      font-size: 1.6rem; flex-shrink: 0;
+      width: 44px; height: 44px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
+    }
+
+    .contact-item h4 { font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 1px; color: #7080a0; margin-bottom: 4px; }
+    .contact-item p { font-size: 0.92rem; color: white; font-weight: 600; }
+
+    .contact-cta-card {
+      background: linear-gradient(135deg, rgba(19,70,168,0.15), rgba(200,16,46,0.08));
+      border: 1px solid rgba(19,70,168,0.25);
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .contact-cta-card h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem; letter-spacing: 2px; color: white; margin-bottom: 8px;
+    }
+
+    .contact-cta-card p {
+      color: #8ca0c8; font-size: 0.92rem; margin-bottom: 28px; line-height: 1.7;
+    }
+
+    .contact-big-btns {
+      display: flex; flex-direction: column; gap: 12px;
+    }
+
+    .cta-btn-large {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 16px 24px;
+      border-radius: 6px;
+      font-weight: 700; font-size: 0.95rem;
+      text-transform: uppercase; letter-spacing: 1px;
+      text-decoration: none;
+      transition: transform .2s, opacity .2s;
+    }
+
+    .cta-btn-large:hover { transform: translateY(-2px); opacity: 0.9; }
+    .cta-call { background: var(--red); color: white; }
+    .cta-wa { background: #25d366; color: white; }
+    .cta-email { background: var(--blue-light); color: white; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #06080f;
+      border-top: 2px solid var(--red);
+      padding: 48px 5% 24px;
+    }
+
+    .footer-inner {
+      max-width: 1200px; margin: 0 auto;
+    }
+
+    .footer-top {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 40px;
+    }
+
+    .footer-brand .fb-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem; letter-spacing: 3px; color: var(--gold);
+    }
+
+    .footer-brand .fb-legal {
+      font-size: 0.72rem; color: #506080;
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 14px;
+    }
+
+    .footer-brand p {
+      font-size: 0.85rem; color: #506080;
+      line-height: 1.7; max-width: 260px;
+      font-style: italic; margin-top: 10px;
+    }
+
+    .footer-col h4 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.75rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 2px;
+      color: #506080; margin-bottom: 16px;
+    }
+
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 8px; }
+    .footer-col ul li a {
+      color: #8090b0; text-decoration: none;
+      font-size: 0.85rem; transition: color .2s;
+    }
+    .footer-col ul li a:hover { color: var(--gold); }
+
+    .footer-col .footer-phone {
+      display: flex; align-items: center; gap: 8px;
+      margin-bottom: 8px; font-size: 0.85rem; color: #8090b0;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px;
+    }
+
+    .footer-bottom p { font-size: 0.78rem; color: #405060; }
+    .footer-tagline {
+      font-style: italic; color: var(--gold) !important;
+      font-size: 0.85rem !important;
+    }
+
+    /* ===== MOBILE NAV ===== */
+    .mobile-menu {
+      display: none;
+      position: fixed; top: 70px; left: 0; right: 0; z-index: 999;
+      background: rgba(10, 16, 30, 0.98);
+      padding: 20px 5%;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .mobile-menu.open { display: block; }
+
+    .mobile-menu ul { list-style: none; }
+    .mobile-menu ul li { border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .mobile-menu ul li a {
+      display: block; padding: 14px 0;
+      color: #cdd5e8; text-decoration: none;
+      font-weight: 600; font-size: 0.9rem;
+      text-transform: uppercase; letter-spacing: 1px;
+    }
+
+    /* ===== SCROLL ANIMATION ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .about-inner, .hl-inner, .contact-inner { grid-template-columns: 1fr; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    @media (max-width: 600px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .about-highlights { grid-template-columns: 1fr; }
+      .hero-btns { flex-direction: column; }
+      .trust-divider { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <img src="shamu_logo.jpeg" alt="Shamu Hardware Logo" class="nav-logo-img" />
+    <div class="nav-brand">
+      <span>Shamu Hardware</span>
+      <span>Shazindi Investments t/a</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#hours-location">Hours & Location</a></li>
+    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#products" onclick="toggleMenu()">Products</a></li>
+    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+    <li><a href="#hours-location" onclick="toggleMenu()">Hours & Location</a></li>
+    <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+  </ul>
+</div>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-accent hero-accent-1"></div>
+  <div class="hero-accent hero-accent-2"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow">📍 Makoni Shopping Centre, Chitungwiza</div>
+      <h1 class="hero-title">
+        <span class="line-white">SHAMU</span><br/>
+        <span class="line-gold">HARDWARE</span><br/>
+        <span class="line-white">&amp; BUILDING</span><br/>
+        <span class="line-red">SUPPLIES</span>
+      </h1>
+      <p class="hero-sub">Shazindi Investments</p>
+      <p class="hero-tagline">Vaka Smart, Vaka neShamu</p>
+      <div class="hero-cats">
+        <span class="hero-cat">🚰 Plumbing</span>
+        <span class="hero-cat">⚡ Electrical</span>
+        <span class="hero-cat">🎨 Paints</span>
+        <span class="hero-cat">🧱 Building</span>
+        <span class="hero-cat">🟫 Tiling</span>
+        <span class="hero-cat">🔩 Hardware</span>
+      </div>
+      <div class="hero-btns">
+        <a href="tel:0782653631" class="btn-primary">📞 Call Now</a>
+        <a href="https://wa.me/263782653631?text=Hello%2C%20I%20would%20like%20a%20quote%20from%20Shamu%20Hardware" class="btn-primary btn-wa" target="_blank" rel="noopener">💬 WhatsApp Quote</a>
+        <a href="#hours-location" class="btn-secondary">📍 Find Us</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-store-card">
+        <div class="hero-store-icon">🏪</div>
+        <h3>One-Stop Hardware Store</h3>
+        <p>Everything under one roof in Chitungwiza</p>
+      </div>
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <div class="badge-icon">✅</div>
+          <div class="badge-label">Quality Products</div>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon">💰</div>
+          <div class="badge-label">Great Prices</div>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon">🤝</div>
+          <div class="badge-label">Trusted Service</div>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon">🕖</div>
+          <div class="badge-label">Open Daily</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST STRIP ===== -->
+<div id="trust">
+  <div class="trust-inner">
+    <div class="trust-tagline">Building Trust Through Quality</div>
+    <div class="trust-divider"></div>
+    <div class="trust-items">
+      <div class="trust-item"><span>✅</span><span>Quality Products</span></div>
+      <div class="trust-item"><span>💰</span><span>Great Prices</span></div>
+      <div class="trust-item"><span>🤝</span><span>Trusted Service</span></div>
+      <div class="trust-item"><span>🛒</span><span>One-Stop Shop</span></div>
+      <div class="trust-item"><span>🕖</span><span>Open Daily 7–18</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PRODUCTS ===== -->
+<section id="products">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="section-header reveal">
+      <div class="section-label">What We Stock</div>
+      <h2 class="section-title">OUR PRODUCT CATEGORIES</h2>
+      <p class="section-desc">Everything you need to Build, Repair & Finish — all under one roof at Makoni Shopping Centre.</p>
+    </div>
+    <div class="products-grid">
+      <div class="product-card reveal">
+        <span class="product-icon">🚰</span>
+        <h3>Plumbing Materials</h3>
+        <p>Pipes, fittings, taps, valves & more</p>
+        <span class="product-badge">In Stock</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-icon">⚡</span>
+        <h3>Electrical Materials</h3>
+        <p>Cables, switches, sockets, breakers & more</p>
+        <span class="product-badge">In Stock</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-icon">🟫</span>
+        <h3>Tiling Equipment</h3>
+        <p>Tiles, adhesives, trowels, spacers & more</p>
+        <span class="product-badge">In Stock</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-icon">🎨</span>
+        <h3>Paints & Accessories</h3>
+        <p>Quality paints, primers, brushes, rollers & more</p>
+        <span class="product-badge">In Stock</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-icon">🧱</span>
+        <h3>Building Essentials</h3>
+        <p>Cement, nails, bolts, tools & more</p>
+        <span class="product-badge">In Stock</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="about-inner">
+    <div class="about-left reveal">
+      <div class="section-label">Who We Are</div>
+      <h2 class="section-title">ABOUT SHAMU HARDWARE</h2>
+      <p class="about-text">
+        Shamu Hardware proudly serves Chitungwiza with reliable hardware and building materials for homes, builders, contractors, and businesses. Operated by Shazindi Investments, we are committed to providing quality products at great prices, backed by a team you can trust.
+      </p>
+      <p class="about-text">
+        Find us at Makoni Shopping Centre, opposite Makoni Market — your true one-stop building supply shop.
+      </p>
+      <div class="about-highlights">
+        <div class="about-highlight">
+          <div class="hl-icon">🏗️</div>
+          <h4>Builders & Contractors</h4>
+          <p>Everything for large and small projects</p>
+        </div>
+        <div class="about-highlight">
+          <div class="hl-icon">🏠</div>
+          <h4>Home Owners</h4>
+          <p>Repairs, renovations & finishing</p>
+        </div>
+        <div class="about-highlight">
+          <div class="hl-icon">📦</div>
+          <h4>All Materials</h4>
+          <p>Plumbing, electrical, paint & more</p>
+        </div>
+        <div class="about-highlight">
+          <div class="hl-icon">📍</div>
+          <h4>Chitungwiza Based</h4>
+          <p>Proudly local, serving the community</p>
+        </div>
+      </div>
+    </div>
+    <div class="about-right reveal">
+      <div class="about-motto">Vaka Smart,<br/>Vaka neShamu</div>
+      <div class="about-motto-sub">Building dreams one material at a time</div>
+      <div class="about-stat">
+        <div class="stat-icon">🛒</div>
+        <div>
+          <h4>One-Stop Solution</h4>
+          <p>All your building needs under one roof — no need to go elsewhere</p>
+        </div>
+      </div>
+      <div class="about-stat">
+        <div class="stat-icon">🔒</div>
+        <div>
+          <h4>Built on Trust</h4>
+          <p>Consistent quality and honest pricing, every time</p>
+        </div>
+      </div>
+      <div class="about-stat">
+        <div class="stat-icon">🕖</div>
+        <div>
+          <h4>Open Every Day</h4>
+          <p>Monday to Sunday, 07:00 – 18:00. We're here when you need us</p>
+        </div>
+      </div>
+      <div class="about-stat">
+        <div class="stat-icon">💬</div>
+        <div>
+          <h4>WhatsApp Quotes</h4>
+          <p>Contact us on WhatsApp for quick quotes and availability checks</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOURS & LOCATION ===== -->
+<section id="hours-location">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="section-header reveal" style="text-align:center;">
+      <div class="section-label" style="justify-content:center;">Visit Us</div>
+      <h2 class="section-title">HOURS & LOCATION</h2>
+    </div>
+    <div class="hl-inner">
+      <!-- Hours -->
+      <div class="info-card reveal">
+        <h3>🕐 Opening Hours</h3>
+        <div class="open-badge">Open Today</div>
+        <div class="hours-row"><span class="day">Monday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Tuesday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Wednesday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Thursday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Friday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Saturday</span><span class="time">07:00 – 18:00</span></div>
+        <div class="hours-row"><span class="day">Sunday</span><span class="time">07:00 – 18:00</span></div>
+      </div>
+
+      <!-- Location -->
+      <div class="info-card reveal">
+        <h3>📍 Find Us</h3>
+        <div class="location-detail">
+          <span class="loc-icon">🏪</span>
+          <div>
+            <h4>Shamu Hardware & Building Supplies</h4>
+            <p>Makoni Shopping Centre<br/>Opposite Makoni Market<br/>Chitungwiza, Zimbabwe</p>
+          </div>
+        </div>
+        <div class="location-detail">
+          <span class="loc-icon">🗺️</span>
+          <div>
+            <h4>Easy to Find</h4>
+            <p>Directly opposite Makoni Market at the Shopping Centre — look for the Shamu Hardware signage.</p>
+          </div>
+        </div>
+        <div class="map-placeholder">
+          <div class="map-icon">📍</div>
+          <p>Makoni Shopping Centre<br/>Opposite Makoni Market<br/>Chitungwiza, Zimbabwe</p>
+          <a href="https://maps.google.com/?q=Makoni+Shopping+Centre+Chitungwiza+Zimbabwe" target="_blank" rel="noopener" class="map-directions-btn">
+            🗺️ Get Directions on Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-left reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">CONTACT US</h2>
+      <p class="section-desc">Reach us by phone, WhatsApp or email. We're available every day from 07:00 to 18:00.</p>
+      <div class="contact-items">
+        <a href="tel:0782653631" class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>078 265 3631</p>
+          </div>
+        </a>
+        <a href="tel:0771805774" class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>077 180 5774</p>
+          </div>
+        </a>
+        <a href="tel:0781309690" class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>078 130 9690 / 4</p>
+          </div>
+        </a>
+        <a href="mailto:Shazindi2025@gmail.com" class="contact-item">
+          <div class="ci-icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <p>Shazindi2025@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://wa.me/263782653631" class="contact-item" target="_blank" rel="noopener">
+          <div class="ci-icon">💬</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>078 265 3631</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-right reveal">
+      <div class="contact-cta-card">
+        <h3>READY TO BUILD?</h3>
+        <p>Get in touch today for all your hardware and building supply needs. We're open every day of the week!</p>
+        <div class="contact-big-btns">
+          <a href="tel:0782653631" class="cta-btn-large cta-call">📞 Call 078 265 3631</a>
+          <a href="https://wa.me/263782653631?text=Hello%2C%20I%20would%20like%20a%20quote%20from%20Shamu%20Hardware" class="cta-btn-large cta-wa" target="_blank" rel="noopener">💬 WhatsApp Us Now</a>
+          <a href="mailto:Shazindi2025@gmail.com" class="cta-btn-large cta-email">📧 Send Us an Email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-name">SHAMU HARDWARE</div>
+        <div class="fb-legal">Shazindi Investments t/a Shamu Hardware</div>
+        <p>"Building dreams one material at a time."</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#hours-location">Hours & Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#products">Plumbing Materials</a></li>
+          <li><a href="#products">Electrical Materials</a></li>
+          <li><a href="#products">Tiling Equipment</a></li>
+          <li><a href="#products">Paints & Accessories</a></li>
+          <li><a href="#products">Building Essentials</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-phone">📞 <a href="tel:0782653631" style="color:#8090b0;text-decoration:none;">078 265 3631</a></div>
+        <div class="footer-phone">📞 <a href="tel:0771805774" style="color:#8090b0;text-decoration:none;">077 180 5774</a></div>
+        <div class="footer-phone">📞 <a href="tel:0781309690" style="color:#8090b0;text-decoration:none;">078 130 9690 / 4</a></div>
+        <div class="footer-phone">📧 <a href="mailto:Shazindi2025@gmail.com" style="color:#8090b0;text-decoration:none;font-size:0.78rem;">Shazindi2025@gmail.com</a></div>
+        <div class="footer-phone" style="margin-top:8px;">📍 Makoni Shopping Centre, Chitungwiza</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Shazindi Investments t/a Shamu Hardware. All rights reserved.</p>
+      <p class="footer-tagline">Vaka Smart, Vaka neShamu 🏗️</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  // Smooth reveal on scroll
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80 * (Array.from(reveals).indexOf(entry.target) % 4));
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  reveals.forEach(el => observer.observe(el));
+
+  // Highlight today in hours
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll('.hours-row').forEach(row => {
+    if (row.querySelector('.day').textContent.trim() === today) {
+      row.style.background = 'rgba(245,183,0,0.07)';
+      row.style.borderRadius = '6px';
+      row.style.padding = '12px 8px';
+      row.querySelector('.time').style.color = '#f5b700';
+    }
+  });
+</script>
+</body>
+</html>
