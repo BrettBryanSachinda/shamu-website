@@ -341,6 +341,45 @@ section { padding: 90px 5%; }
 /* ===== PRODUCTS ===== */
 #products { background: var(--light); }
 
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.filter-btn {
+  background: var(--white);
+  border: 2px solid var(--line);
+  color: var(--charcoal);
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.filter-btn.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+}
+
+.filter-btn.active:hover {
+  background: var(--red-dk);
+  border-color: var(--red-dk);
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -352,8 +391,14 @@ section { padding: 90px 5%; }
   border: 1px solid var(--line);
   border-radius: 4px;
   overflow: hidden;
-  transition: transform .25s, box-shadow .25s;
+  transition: transform .25s, box-shadow .25s, opacity .3s ease;
   cursor: default;
+}
+
+.product-card.hide {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .product-card:hover {
@@ -370,17 +415,38 @@ section { padding: 90px 5%; }
 
 .product-card:hover .product-image { transform: scale(1.05); }
 
-.product-body { padding: 24px 20px; }
+.product-body {
+  padding: 24px 20px;
+}
 
 .product-body h3 {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 1.1rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: 1px;
-  color: var(--black); margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--black);
+  margin-bottom: 8px;
 }
 
 .product-body p {
-  font-size: 0.85rem; color: var(--gray); line-height: 1.6;
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.product-badge {
+  display: inline-block;
+  background: rgba(200, 169, 91, 0.1);
+  border: 1px solid rgba(200, 169, 91, 0.3);
+  color: var(--gold);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* ===== ABOUT ===== */
@@ -807,4 +873,10 @@ footer {
     height: 55px;
     border-radius: 12px;
     object-fit: cover;
+}
+
+.smallcaps{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
 }
